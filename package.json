@@ -13,12 +13,10 @@
   "author": "Peter Placzek <peter.placzek1996@gmail.com>",
   "homepage": "https://github.com/rollup/plugins/tree/master/packages/swc#readme",
   "bugs": "https://github.com/rollup/plugins/issues",
-  "main": "dist/cjs/index.js",
-  "module": "dist/es/index.js",
+  "module": "dist/index.mjs",
   "exports": {
     "types": "./types/index.d.ts",
-    "import": "./dist/es/index.js",
-    "default": "./dist/cjs/index.js"
+    "import": "./dist/index.mjs"
   },
   "engines": {
     "node": ">=14.0.0"
