@@ -40,7 +40,7 @@
     "modules"
   ],
   "peerDependencies": {
-    "@swc/core": "canary",
+    "@swc/core": "nightly",
     "rolldown": "^1.0.0-rc.12"
   },
   "peerDependenciesMeta": {
@@ -49,7 +49,7 @@
     }
   },
   "devDependencies": {
-    "@swc/core": "canary",
+    "@swc/core": "nightly",
     "tsdown": "^0.21.7",
     "typescript": "^6.0.2"
   },
