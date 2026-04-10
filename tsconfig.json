@@ -1,11 +1,11 @@
 {
-  "include": ["src/**/*", "types/**/*"],
-  "compilerOptions": {
-    "moduleResolution": "NodeNext",
-    "noUnusedParameters": false,
-    "module": "NodeNext",
-    "declaration": true,
-    "declarationMap": true,
+	"include": ["src/**/*", "types/**/*"],
+	"compilerOptions": {
+		"moduleResolution": "NodeNext",
+		"noUnusedParameters": false,
+		"module": "NodeNext",
+		"declaration": true,
+		"declarationMap": true,
 		"isolatedDeclarations": true
-  }
+	}
 }

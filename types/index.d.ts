@@ -1,5 +1,5 @@
-import { Options } from '@swc/core';
-import type { Plugin } from 'rolldown';
+import { Options } from "@swc/core";
+import type { Plugin } from "rolldown";
 
 /**
  * A Rolldown plugin to transpile TypeScript/JavaScript with the speedy-web-compiler (swc).
