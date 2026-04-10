@@ -6,9 +6,7 @@
   },
   "description": "Transpile JavaScript/TypeScript code with swc.",
   "license": "MIT",
-  "repository": {
-    
-  },
+  "repository": {},
   "type": "module",
   "author": "Peter Placzek <peter.placzek1996@gmail.com>",
   "homepage": "https://github.com/rollup/plugins/tree/master/packages/swc#readme",
@@ -40,7 +38,7 @@
     "modules"
   ],
   "peerDependencies": {
-    "@swc/core": "nightly",
+    "@swc/core": "^1.15.21",
     "rolldown": "^1.0.0-rc.12"
   },
   "peerDependenciesMeta": {
@@ -49,9 +47,12 @@
     }
   },
   "devDependencies": {
-    "@swc/core": "nightly",
+    "@swc/core": "^1.15.21",
     "tsdown": "^0.21.7",
     "typescript": "^6.0.2"
   },
-  "types": "./types/index.d.ts"
+  "types": "./types/index.d.ts",
+  "trustedDependencies": [
+    "@swc/core"
+  ]
 }
