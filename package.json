@@ -1,58 +1,59 @@
 {
-  "name": "@wq2/rolldown-plugin-swc",
-  "version": "0.0.1",
-  "publishConfig": {
-    "access": "public"
-  },
-  "description": "Transpile JavaScript/TypeScript code with swc.",
-  "license": "MIT",
-  "repository": {},
-  "type": "module",
-  "author": "Seized and Desisted",
-  "homepage": "https://github.com/MinibloxCheaters2/rolldown-plugin-swc",
-  "bugs": "https://github.com/MinibloxCheaters2/rolldown-plugin-swc/issues",
-  "module": "dist/index.mjs",
-  "exports": {
-    "types": "./types/index.d.ts",
-    "import": "./dist/index.mjs"
-  },
-  "engines": {
-    "node": ">=14.0.0"
-  },
-  "scripts": {
-    "build": "tsdown"
-  },
-  "files": [
-    "dist",
-    "!dist/**/*.map",
-    "src",
-    "types",
-    "README.md"
-  ],
-  "keywords": [
-    "rollup",
-    "plugin",
-    "swc",
-    "speedy-web-compiler",
-    "npm",
-    "modules"
-  ],
-  "peerDependencies": {
-    "@swc/core": "^1.15.21",
-    "rolldown": "^1.0.0-rc.12"
-  },
-  "peerDependenciesMeta": {
-    "rolldown": {
-      "optional": true
-    }
-  },
-  "devDependencies": {
-    "@swc/core": "^1.15.24",
-    "tsdown": "^0.21.7",
-    "typescript": "^6.0.2"
-  },
-  "types": "./types/index.d.ts",
-  "trustedDependencies": [
-    "@swc/core"
-  ]
+	"name": "@wq2/rolldown-plugin-swc",
+	"version": "0.0.0",
+	"publishConfig": {
+		"access": "public",
+		"provenance": true
+	},
+	"description": "Transpile JavaScript/TypeScript code with swc.",
+	"license": "MIT",
+	"repository": {},
+	"type": "module",
+	"author": "Seized and Desisted",
+	"homepage": "https://github.com/MinibloxCheaters2/rolldown-plugin-swc",
+	"bugs": "https://github.com/MinibloxCheaters2/rolldown-plugin-swc/issues",
+	"module": "dist/index.mjs",
+	"exports": {
+		"types": "./types/index.d.ts",
+		"import": "./dist/index.mjs"
+	},
+	"engines": {
+		"node": ">=14.0.0"
+	},
+	"scripts": {
+		"build": "tsdown"
+	},
+	"files": [
+		"dist",
+		"!dist/**/*.map",
+		"src",
+		"types",
+		"README.md"
+	],
+	"keywords": [
+		"rollup",
+		"plugin",
+		"swc",
+		"speedy-web-compiler",
+		"npm",
+		"modules"
+	],
+	"peerDependencies": {
+		"@swc/core": "^1.15.21",
+		"rolldown": "^1.0.0-rc.12"
+	},
+	"peerDependenciesMeta": {
+		"rolldown": {
+			"optional": true
+		}
+	},
+	"devDependencies": {
+		"@swc/core": "^1.15.24",
+		"tsdown": "^0.21.7",
+		"typescript": "^6.0.2"
+	},
+	"types": "./types/index.d.ts",
+	"trustedDependencies": [
+		"@swc/core"
+	]
 }
