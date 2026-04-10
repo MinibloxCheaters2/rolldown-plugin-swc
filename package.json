@@ -47,6 +47,9 @@
 			"optional": true
 		}
 	},
+	"dependencies": {
+		"smob": "^1.6.1"
+	},
 	"devDependencies": {
 		"@swc/core": "^1.15.24",
 		"tsdown": "^0.21.7",
