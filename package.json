@@ -8,9 +8,9 @@
   "license": "MIT",
   "repository": {},
   "type": "module",
-  "author": "Peter Placzek <peter.placzek1996@gmail.com>",
-  "homepage": "https://github.com/rollup/plugins/tree/master/packages/swc#readme",
-  "bugs": "https://github.com/rollup/plugins/issues",
+  "author": "Seized and Desisted",
+  "homepage": "https://github.com/MinibloxCheaters2/rolldown-plugin-swc",
+  "bugs": "https://github.com/MinibloxCheaters2/rolldown-plugin-swc/issues",
   "module": "dist/index.mjs",
   "exports": {
     "types": "./types/index.d.ts",
@@ -47,7 +47,7 @@
     }
   },
   "devDependencies": {
-    "@swc/core": "^1.15.21",
+    "@swc/core": "^1.15.24",
     "tsdown": "^0.21.7",
     "typescript": "^6.0.2"
   },
